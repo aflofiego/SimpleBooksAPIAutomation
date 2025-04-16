@@ -1,3 +1,21 @@
+# Allure results and reports
+allure-results/
+allure-report/
+*.html
+*.json
+*.xml
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # Ignore Gradle project-specific cache directory
 .gradle
 
