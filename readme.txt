@@ -1,4 +1,40 @@
-repo de la API en: https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md
+# SimpleBooks API Automation
+
+Este proyecto contiene una suite de pruebas automatizadas para validar el comportamiento de la [Simple Books API](https://simple-books-api.glitch.me/).
+
+## 🛠️ Tecnologías utilizadas
+
+- **Java 17**
+- **JUnit 5**
+- **Rest Assured** – para pruebas sobre API REST
+- **Gradle** – gestión de dependencias y construcción del proyecto
+- **Allure** – generación de reportes
+- **GitHub** – control de versiones
+
+## 🚀 ¿Cómo ejecutar los tests?
+gradle clean test
+
+## 🚀 ¿Cómo ver los reportes?
+Allure comands (https://allurereport.org/docs/how-it-works/)
+allure serve allure-results
+allure generate
+allure open
+
+### Como clonar el repositorio?
+
+git clone https://github.com/aflofiego/SimpleBooksAPIAutomation.git
+cd SimpleBooksAPIAutomation
+
+SimpleBooksAPIAutomation/
+├── src/
+│   └── test/
+│       └── java/
+│           └── tests/             # Casos de prueba
+│           └── utils/             # Helpers o utilidades
+├── build.gradle                    # Configuración de Gradle
+├── settings.gradle
+├── .gitignore
+└── README.md
 
 
 Instalación de allure reports
@@ -33,3 +69,10 @@ Pasos para instalar Scoop:
 Allure comands (https://allurereport.org/docs/how-it-works/)
 allure generate
 allure open
+
+Notas:
+La API de Simple Books es pública, por lo que puede tener variaciones en los datos.
+Este proyecto es solo con fines de aprendizaje y/o demostración profesional.
+
+Autor
+@aflofiego – https://github.com/aflofiego
